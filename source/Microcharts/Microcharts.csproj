@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net7.0;net7.0-android;net7.0-ios;net7.0-macos;net8.0;net8.0-android;net8.0-ios;net8.0-macos</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>DotNetNative.Microcharts</PackageId>
+    <AssemblyName>Microcharts</AssemblyName>
+    <authors>Ooi Keng Siang, eman1986, Eilon</authors>
+    <Version>1.0.0</Version>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Title>Microcharts Library for .NET 7 / .NET 8 native iOS / Android / Mac</Title>
+    <Description>An extremely simple charting library for .NET 7 / .NET 8 native Android, iOS and Mac OS.</Description>
+    <PackageTags>microcharts, xamarin, .net, .net7, .net8, native, android, ios, mac</PackageTags>
+    <RepositoryUrl>https://github.com/ooikengsiang/DotNetNative.Microcharts.git</RepositoryUrl> 
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp" Version="2.88.8" />
+    <PackageReference Include="SkiaSharp.Views" Version="2.88.8" />
+  </ItemGroup>
+</Project>
