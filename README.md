@@ -1,11 +1,13 @@
 # DotNetNative.Microcharts - An extremely simple charting library
 
-Microcharts Library for .NET 7 / .NET 8 native iOS / Android / Mac.
+Microcharts Library for .NET 9 and .NET 10 native iOS / Android / Mac.
 
-*This is a quick / lazy port from Microcharts to support .NET 7 and .NET 8 since Xamarin is going away. If you are looking for MAUI support, this is not the one you are looking for.*
+*This is a quick / lazy port from Microcharts to support native .NET iOS, Android and Mac. If you are looking for MAUI support, this is not the one you are looking for.*
 
 ## NuGet
 Microcharts: https://www.nuget.org/packages/DotNetNative.Microcharts
+
+The Android package targets use SkiaSharp 3.119.4 native libraries built with 16 KB ELF alignment for compatible Android devices.
 
 ## About
 
